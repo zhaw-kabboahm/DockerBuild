@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-res.send('Hello DevOps Course, Ahmad hat jetzt übernommen :D ');
+res.send('Hello DevOps Course, Ahmad hat jetzt übernommen :D - Sogar min Jenkins ;)');
 });
 app.listen(PORT, HOST);
 console.log(`Running on
